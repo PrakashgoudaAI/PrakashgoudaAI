@@ -64,13 +64,13 @@ A runnable TypeScript project with its own local task-board application and publ
 - **Independent tests:** fresh sessions and separate datasets for parallel execution.
 - **Readable structure:** page objects and a task-table component with semantic locators.
 - **Useful diagnostics:** Playwright HTML, JUnit XML, Allure reports, and failure traces.
-- **Verified execution:** GitHub Actions runs TypeScript checks and the API and Chromium tests with retries disabled.
+- **Verified execution:** GitHub Actions runs TypeScript checks and the API, Chromium, and Firefox tests with retries disabled.
 
 [Explore the code →](https://github.com/PrakashgoudaAI/playwright-starter) · [Setup & design decisions](https://github.com/PrakashgoudaAI/playwright-starter#readme) · [Test runs & reports](https://github.com/PrakashgoudaAI/playwright-starter/actions/workflows/verify.yml)
 
 ## Exploring next
 
-My learning interests include **LLMs, LLM evaluation, AI-agent testing, RAG applications, and AI-assisted test analysis**. I’m also planning to develop **Docker, accessibility testing, and broader browser coverage**. These are learning directions; I’ll add project evidence as I put them into practice.
+My learning interests include **LLMs, LLM evaluation, AI-agent testing, RAG applications, and AI-assisted test analysis**. I’m also planning to develop **Docker, accessibility testing, and WebKit coverage**. These are learning directions; I’ll add project evidence as I put them into practice.
 
 ## How I work
 
