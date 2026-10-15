@@ -1,16 +1,23 @@
-## Hi there 👋
+# Prakash Gouda
 
-<!--
-**PrakashgoudaAI/PrakashgoudaAI** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build reliable quality engineering systems with TypeScript, Playwright, API testing, CI/CD, and useful test reporting. This profile is a home for practical, independently developed work that I can explain, maintain, and verify.
 
-Here are some ideas to get you started:
+## Focus
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Playwright and TypeScript test automation
+- Test design, diagnostics, and reporting
+- API testing and security-minded quality checks
+- CI/CD for fast, trustworthy feedback
+- AI quality engineering and developer tools
+
+## What I value
+
+Clear test intent. Small, useful abstractions. Synthetic examples. Honest documentation. Reproducible results.
+
+## What you will find here
+
+Each public project will include working code, practical documentation, and a clear distinction between what is planned, implemented, and verified. I do not publish employer, customer, or confidential material.
+
+## In progress
+
+I am building a clean Playwright starter that demonstrates a maintainable page-object structure, sensible test isolation, reporting, and CI without pretending one framework fits every application.
