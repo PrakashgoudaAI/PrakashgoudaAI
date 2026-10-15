@@ -1,23 +1,28 @@
 # Prakash Gouda
 
-I build reliable quality engineering systems with TypeScript, Playwright, API testing, CI/CD, and useful test reporting. This profile is a home for practical, independently developed work that I can explain, maintain, and verify.
+I am an SDET focused on building automation that helps teams find real quality risks early and understand failures when they happen. My work centers on Playwright, TypeScript, API testing, CI/CD, and test reporting.
 
-## Focus
+## What I work on
 
-- Playwright and TypeScript test automation
-- Test design, diagnostics, and reporting
-- API testing and security-minded quality checks
-- CI/CD for fast, trustworthy feedback
-- AI quality engineering and developer tools
+- Designing automation that stays understandable as a project grows
+- Building UI and API checks that give useful, dependable feedback
+- Improving test isolation, data handling, and execution reliability
+- Making failures easier to investigate with traces, logs, and reports
+- Integrating automated checks into practical CI/CD workflows
+- Exploring careful, useful applications of AI in software testing
 
-## What I value
+## Currently building
 
-Clear test intent. Small, useful abstractions. Synthetic examples. Honest documentation. Reproducible results.
+A Playwright + TypeScript starter for maintainable end-to-end testing. It starts small on purpose: a clear page-object structure, focused reusable components, synthetic test data, meaningful diagnostics, and CI verification.
 
-## What you will find here
+The aim is not a one-size-fits-all framework. It is a practical foundation that can be adapted without hiding how it works.
 
-Each public project will include working code, practical documentation, and a clear distinction between what is planned, implemented, and verified. I do not publish employer, customer, or confidential material.
+## How I approach SDET work
 
-## In progress
+- Keep the test intent obvious.
+- Prefer evidence over test-count or coverage-number claims.
+- Fix instability at its source instead of normalising retries.
+- Treat test code as software that deserves design, review, and maintenance.
+- Add abstraction only when repeated work proves it is useful.
 
-I am building a clean Playwright starter that demonstrates a maintainable page-object structure, sensible test isolation, reporting, and CI without pretending one framework fits every application.
+Everything published here is independently developed and uses synthetic examples. I do not publish employer, customer, or confidential material.
