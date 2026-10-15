@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Prakash Gouda — SDET</title>
+  <desc id="desc">Playwright, TypeScript, API testing and CI/CD. Clear tests. Useful feedback.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111b35"/><stop offset="1" stop-color="#16112e"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#22d3ee"/><stop offset=".55" stop-color="#818cf8"/><stop offset="1" stop-color="#e879f9"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#a5b4fc" stroke-opacity=".06"/></pattern>
+  </defs>
+  <rect width="1200" height="320" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="20" fill="url(#grid)"/>
+  <circle cx="1110" cy="40" r="180" fill="#7c3aed" opacity=".10"/>
+  <circle cx="900" cy="300" r="160" fill="#06b6d4" opacity=".06"/>
+  <rect x="48" y="45" width="57" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="48" y="88" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="4" fill="#67e8f9">SOFTWARE DEVELOPMENT ENGINEER IN TEST</text>
+  <text x="45" y="155" font-family="Arial,Helvetica,sans-serif" font-size="57" font-weight="700" fill="#f8fafc">Prakash Gouda</text>
+  <text x="48" y="196" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#cbd5e1">Clear tests. Useful feedback.</text>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="600" text-anchor="middle">
+    <rect x="48" y="232" width="118" height="34" rx="17" fill="#123c39" stroke="#2dd4bf" stroke-opacity=".4"/><text x="107" y="254" fill="#99f6e4">Playwright</text>
+    <rect x="178" y="232" width="122" height="34" rx="17" fill="#172c4b" stroke="#60a5fa" stroke-opacity=".4"/><text x="239" y="254" fill="#bfdbfe">TypeScript</text>
+    <rect x="312" y="232" width="127" height="34" rx="17" fill="#352847" stroke="#c084fc" stroke-opacity=".4"/><text x="375.5" y="254" fill="#e9d5ff">API Testing</text>
+    <rect x="451" y="232" width="86" height="34" rx="17" fill="#3c2b28" stroke="#fb923c" stroke-opacity=".4"/><text x="494" y="254" fill="#fed7aa">CI/CD</text>
+  </g>
+  <g transform="translate(815 111)" font-family="Arial,Helvetica,sans-serif">
+    <path d="M23 24V117M23 24H283" fill="none" stroke="url(#accent)" stroke-width="2"/>
+    <rect width="310" height="105" rx="12" fill="#111b30" stroke="#64748b" stroke-opacity=".4"/>
+    <circle cx="23" cy="24" r="5" fill="#2dd4bf"/><text x="40" y="30" font-size="15" fill="#e2e8f0">Test → Investigate → Improve</text>
+    <text x="22" y="63" font-size="14" fill="#94a3b8">UI + API · Isolated sessions</text>
+    <text x="22" y="86" font-size="14" fill="#94a3b8">Readable code · Actionable reports</text>
+  </g>
+  <rect y="314" width="1200" height="6" fill="url(#accent)"/>
+</svg>
