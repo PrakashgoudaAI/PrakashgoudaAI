@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="#tools--technologies">Tools &amp; technologies</a> · <a href="#skills-in-practice">Skills</a> · <a href="#featured-project">Featured project</a> · <a href="#connect">Connect</a>
+  <a href="#tools--technologies">Tools &amp; technologies</a> · <a href="#skills-in-practice">Skills</a> · <a href="#featured-projects">Projects</a> · <a href="#connect">Connect</a>
 </p>
 
 ## Hi, I’m Prakash 👋
@@ -53,7 +53,7 @@ I care about whether a test catches a useful problem and whether someone can und
 | ⚙️ CI/CD | Pipeline implementation, Git workflows, and automated quality checks |
 | 🔎 Troubleshooting | Traces, logs, HTML reports, JUnit results, and Allure reporting |
 
-## Featured project
+## Featured projects
 
 ### 🎭 [Playwright Starter](https://github.com/PrakashgoudaAI/playwright-starter)
 
@@ -67,6 +67,16 @@ A runnable TypeScript project with its own local task-board application and publ
 - **Verified execution:** GitHub Actions runs TypeScript checks and the API, Chromium, and Firefox tests with retries disabled.
 
 [Explore the code →](https://github.com/PrakashgoudaAI/playwright-starter) · [Setup & design decisions](https://github.com/PrakashgoudaAI/playwright-starter#readme) · [Test runs & reports](https://github.com/PrakashgoudaAI/playwright-starter/actions/workflows/verify.yml)
+
+### 🟠 [Postman API Tests](https://github.com/PrakashgoudaAI/postman-api-tests)
+
+[![Verify API collection](https://github.com/PrakashgoudaAI/postman-api-tests/actions/workflows/verify.yml/badge.svg)](https://github.com/PrakashgoudaAI/postman-api-tests/actions/workflows/verify.yml)
+
+A data-driven Postman collection with a local TypeScript API. Editor and viewer workflows cover CRUD operations, permission boundaries, persisted state, and token invalidation: **26 requests and 48 assertions**.
+
+The default runner is Postman CLI, with JUnit and JSON reports in GitHub Actions. Newman compatibility is documented separately, including its maintenance and dependency limitations.
+
+[Explore the collection →](https://github.com/PrakashgoudaAI/postman-api-tests) · [View test runs](https://github.com/PrakashgoudaAI/postman-api-tests/actions/workflows/verify.yml)
 
 ## Exploring next
 
