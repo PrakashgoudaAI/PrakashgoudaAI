@@ -1,28 +1,26 @@
 # Prakash Gouda
 
-I am an SDET focused on building automation that helps teams find real quality risks early and understand failures when they happen. My work centers on Playwright, TypeScript, API testing, CI/CD, and test reporting.
+SDET working with Playwright, TypeScript, UI and API automation, and CI/CD.
 
-## What I work on
+I care about whether a test catches a useful problem and whether someone can understand the failure. That shapes how I write tests, handle data, and structure automation.
 
-- Designing automation that stays understandable as a project grows
-- Building UI and API checks that give useful, dependable feedback
-- Improving test isolation, data handling, and execution reliability
-- Making failures easier to investigate with traces, logs, and reports
-- Integrating automated checks into practical CI/CD workflows
-- Exploring careful, useful applications of AI in software testing
+## Featured project
 
-## Currently building
+### [Playwright Starter](https://github.com/PrakashgoudaAI/playwright-starter)
 
-A Playwright + TypeScript starter for maintainable end-to-end testing. It starts small on purpose: a clear page-object structure, focused reusable components, synthetic test data, meaningful diagnostics, and CI verification.
+A runnable test project with its own local task-board application and public demo accounts. It covers sign-in and sign-out, viewer permissions, task creation, and completing tasks through the UI and API.
 
-The aim is not a one-size-fits-all framework. It is a practical foundation that can be adapted without hiding how it works.
+- Fresh sessions and separate datasets keep parallel tests independent.
+- Page objects and a task-table component keep interactions readable.
+- Playwright HTML, JUnit, and Allure reports support failure investigation.
+- GitHub Actions runs strict TypeScript checks and the Chromium and API tests with retries disabled.
 
-## How I approach SDET work
+[Read the setup and design decisions](https://github.com/PrakashgoudaAI/playwright-starter#readme) · [View test runs](https://github.com/PrakashgoudaAI/playwright-starter/actions/workflows/verify.yml)
 
-- Keep the test intent obvious.
-- Prefer evidence over test-count or coverage-number claims.
-- Fix instability at its source instead of normalising retries.
-- Treat test code as software that deserves design, review, and maintenance.
-- Add abstraction only when repeated work proves it is useful.
+## How I work
 
-Everything published here is independently developed and uses synthetic examples. I do not publish employer, customer, or confidential material.
+Keep test intent clear. Use the simplest design that handles the problem. Investigate unstable tests before adding retries. Treat test code with the same care as application code.
+
+I’m continuing to develop the starter, with broader permission checks and browser coverage next. The repository documents what is implemented and what still needs work.
+
+All examples here use synthetic applications and data. Employer, customer, and confidential material stay out of these repositories.
