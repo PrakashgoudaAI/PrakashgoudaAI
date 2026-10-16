@@ -52,6 +52,7 @@ I care about whether a test catches a useful problem and whether someone can und
 | 🧪 Test reliability | Test data automation, isolation, predictable execution, and automation maintenance |
 | ⚙️ CI/CD | Pipeline implementation, Git workflows, and automated quality checks |
 | 🔎 Troubleshooting | Traces, logs, HTML reports, JUnit results, and Allure reporting |
+| 🧠 LLM evaluation | Structured-output validation, repeated trials, failure analysis, and policy-consistency checks |
 
 ## Featured projects
 
@@ -78,9 +79,23 @@ The default runner is Postman CLI, with JUnit and JSON reports in GitHub Actions
 
 [Explore the collection →](https://github.com/PrakashgoudaAI/postman-api-tests) · [View test runs](https://github.com/PrakashgoudaAI/postman-api-tests/actions/workflows/verify.yml)
 
+### 🔬 [Release Evidence Eval](https://github.com/PrakashgoudaAI/release-evidence-eval)
+
+[![Verify evaluation harness](https://github.com/PrakashgoudaAI/release-evidence-eval/actions/workflows/verify.yml/badge.svg)](https://github.com/PrakashgoudaAI/release-evidence-eval/actions/workflows/verify.yml)
+
+A Python evaluation harness for an LLM that reads synthetic CI evidence and recommends ready, hold, or escalate. It checks whether the answer is supported by the evidence—not just whether the JSON is valid.
+
+- **Separate checks:** decisions, blockers, citations, and policy reasons.
+- **Visible failures:** repeated trials, prompt regressions, and a reserved-case study; failed quality gates stay documented.
+- **Independent guard checks:** generated field faults and policy-preserving transformations, reported separately from model accuracy.
+
+The harness has **112 automated tests**, with Python 3.11 and 3.13 verified on Linux and Windows. The evaluated model failed the quality gates; this is evaluation work, not an autonomous release approver.
+
+[Five-minute walkthrough →](https://github.com/PrakashgoudaAI/release-evidence-eval/blob/main/docs/walkthrough.md) · [Model findings](https://github.com/PrakashgoudaAI/release-evidence-eval/blob/main/docs/experiments/005-reserved-baseline.md) · [Guard design & limitations](https://github.com/PrakashgoudaAI/release-evidence-eval/blob/main/docs/policy-guard.md)
+
 ## Exploring next
 
-My learning interests include **LLMs, LLM evaluation, AI-agent testing, RAG applications, and AI-assisted test analysis**. I’m also planning to develop **Docker, accessibility testing, and WebKit coverage**. These are learning directions; I’ll add project evidence as I put them into practice.
+Building on local LLM evaluation, I’m exploring **AI-agent testing, RAG applications, and AI-assisted test analysis**. I’m also planning to develop **Docker, accessibility testing, and WebKit coverage**. These are learning directions; I’ll add project evidence as I put them into practice.
 
 ## How I work
 
