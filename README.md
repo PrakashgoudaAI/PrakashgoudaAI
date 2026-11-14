@@ -2,120 +2,32 @@
   <img src="https://raw.githubusercontent.com/PrakashgoudaAI/PrakashgoudaAI/main/assets/banner.svg" width="100%" alt="Prakash Gouda — SDET. Clear tests. Useful feedback." />
 </p>
 
-<p align="center">
-  <a href="#tools--technologies">Tools &amp; technologies</a> · <a href="#skills-in-practice">Skills</a> · <a href="#featured-projects">Projects</a> · <a href="#connect">Connect</a>
-</p>
+## Hi, I’m Prakash
 
-## Hi, I’m Prakash 👋
+I work on test automation with TypeScript, Playwright, API checks and CI pipelines. My projects focus on places where a passing test can still leave a problem: permission boundaries, concurrent writes, incomplete CI results and answers that sound plausible without enough evidence.
 
-I’m an SDET working with Playwright, TypeScript, UI and API automation, and CI/CD. I enjoy building tests that are reliable, easy to maintain, and useful to the people working with them.
+Each repository includes a synthetic application or dataset, repeatable checks and the limits of what those checks establish. Start with the browser framework or reservation API for the engineering work; the evaluation projects show how I investigate failures.
 
-I care about whether a test catches a useful problem and whether someone can understand the failure. That shapes how I write tests, handle data, and structure automation.
+## Projects
 
-## Tools & technologies
+| Project | Problem explored | Evidence to review |
+| :--- | :--- | :--- |
+| [Playwright Starter](https://github.com/PrakashgoudaAI/playwright-starter) | Reliable UI and API coverage with useful failure reports | Chromium, Firefox and WebKit; session isolation; selected accessibility checks; two CI shards checked against an expected test-ID plan. [Workflow](https://github.com/PrakashgoudaAI/playwright-starter/actions/workflows/verify.yml) |
+| [API Contract & Security Lab](https://github.com/PrakashgoudaAI/api-contract-security-lab) | Correct reservations under retries, permissions and competing writers | PostgreSQL tests through two service processes, signed-token rejection cases, migration integrity and a real dashboard consumer contract. [Workflow](https://github.com/PrakashgoudaAI/api-contract-security-lab/actions/workflows/verify.yml) |
+| [RAG & Agent Quality Lab](https://github.com/PrakashgoudaAI/rag-agent-quality-lab) | Grounded answers, refusal behavior and uncertain tool outcomes | Fixed evaluation cases, archived local-model experiments, bounded MCP calls and cancellation tests. [Measured results](https://github.com/PrakashgoudaAI/rag-agent-quality-lab/tree/main/docs/experiments) |
+| [Release Evidence Eval](https://github.com/PrakashgoudaAI/release-evidence-eval) | Whether a release recommendation follows the supplied CI evidence | 112 automated tests, repeated model trials, a separate reserved-case study and policy-guard fault checks. [Walkthrough](https://github.com/PrakashgoudaAI/release-evidence-eval/blob/main/docs/walkthrough.md) |
+| [Postman API Tests](https://github.com/PrakashgoudaAI/postman-api-tests) | Role permissions and persisted state below the UI | Two data-driven roles, 26 requests and 48 assertions, with local CLI execution and JSON/JUnit reports. [Workflow](https://github.com/PrakashgoudaAI/postman-api-tests/actions/workflows/verify.yml) |
 
-**Languages**
+The model experiments have failed quality gates. I keep those failures visible, with development and later author-written cases reported separately. These projects evaluate model behavior; they do not authorize autonomous production releases or establish independently reviewed benchmark performance.
 
-<p>
-<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" />
-<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-B8860B?style=for-the-badge&amp;logo=javascript&amp;logoColor=white" />
-<img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" />
-</p>
+## How I approach the work
 
-**Testing & reporting**
+Check state after a mutation. Test authorization through the API as well as the interface. Keep tests isolated and investigate instability before adding retries. Check that the complete planned suite ran before trusting a CI summary. Preserve evaluation cases, scoring rules and failed attempts so later results can be assessed fairly.
 
-<p>
-<img alt="Playwright" src="https://img.shields.io/badge/Playwright-15803D?style=for-the-badge" />
-<img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&amp;logo=postman&amp;logoColor=white" />
-<img alt="Newman" src="https://img.shields.io/badge/Newman-D95B25?style=for-the-badge" />
-<img alt="Allure" src="https://img.shields.io/badge/Allure-7C3AED?style=for-the-badge" />
-<img alt="JUnit XML" src="https://img.shields.io/badge/JUnit%20XML-2563EB?style=for-the-badge" />
-<img alt="Playwright HTML" src="https://img.shields.io/badge/Playwright%20HTML-0891B2?style=for-the-badge" />
-</p>
-
-**Delivery & version control**
-
-<p>
-<img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&amp;logo=githubactions&amp;logoColor=white" />
-<img alt="Azure DevOps" src="https://img.shields.io/badge/Azure%20DevOps-0078D7?style=for-the-badge" />
-<img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&amp;logo=git&amp;logoColor=white" />
-<img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" />
-</p>
-
-## Skills in practice
-
-| Area | What I focus on |
-| :--- | :--- |
-| 🧩 Automation design | Page objects, reusable components, native fixtures, and maintainable test code |
-| 🌐 UI & API testing | Functional workflows, meaningful assertions, and checks across application layers |
-| 🔐 Authentication & permissions | Session handling, protected routes, role boundaries, and API security checks |
-| 🧪 Test reliability | Test data automation, isolation, predictable execution, and automation maintenance |
-| ⚙️ CI/CD | Pipeline implementation, Git workflows, and automated quality checks |
-| 🔎 Troubleshooting | Traces, logs, HTML reports, JUnit results, and Allure reporting |
-| 🧠 LLM evaluation | Structured-output validation, repeated trials, failure analysis, and policy-consistency checks |
-
-## Featured projects
-
-### 🎭 [Playwright Starter](https://github.com/PrakashgoudaAI/playwright-starter)
-
-[![Verify](https://github.com/PrakashgoudaAI/playwright-starter/actions/workflows/verify.yml/badge.svg)](https://github.com/PrakashgoudaAI/playwright-starter/actions/workflows/verify.yml)
-
-A runnable TypeScript project with its own local task-board application and public demo accounts. It covers sign-in and sign-out, viewer permissions, task creation, and task completion through the UI and API.
-
-- **Independent tests:** fresh sessions and separate datasets for parallel execution.
-- **Readable structure:** page objects and a task-table component with semantic locators.
-- **Useful diagnostics:** Playwright HTML, JUnit XML, Allure reports, and failure traces.
-- **Verified execution:** GitHub Actions runs TypeScript checks and the API, Chromium, and Firefox tests with retries disabled.
-
-[Explore the code →](https://github.com/PrakashgoudaAI/playwright-starter) · [Setup & design decisions](https://github.com/PrakashgoudaAI/playwright-starter#readme) · [Test runs & reports](https://github.com/PrakashgoudaAI/playwright-starter/actions/workflows/verify.yml)
-
-### 🟠 [Postman API Tests](https://github.com/PrakashgoudaAI/postman-api-tests)
-
-[![Verify API collection](https://github.com/PrakashgoudaAI/postman-api-tests/actions/workflows/verify.yml/badge.svg)](https://github.com/PrakashgoudaAI/postman-api-tests/actions/workflows/verify.yml)
-
-A data-driven Postman collection with a local TypeScript API. Editor and viewer workflows cover CRUD operations, permission boundaries, persisted state, and token invalidation: **26 requests and 48 assertions**.
-
-The default runner is Postman CLI, with JUnit and JSON reports in GitHub Actions. Newman compatibility is documented separately, including its maintenance and dependency limitations.
-
-[Explore the collection →](https://github.com/PrakashgoudaAI/postman-api-tests) · [View test runs](https://github.com/PrakashgoudaAI/postman-api-tests/actions/workflows/verify.yml)
-
-### 🔬 [Release Evidence Eval](https://github.com/PrakashgoudaAI/release-evidence-eval)
-
-[![Verify evaluation harness](https://github.com/PrakashgoudaAI/release-evidence-eval/actions/workflows/verify.yml/badge.svg)](https://github.com/PrakashgoudaAI/release-evidence-eval/actions/workflows/verify.yml)
-
-A Python evaluation harness for an LLM that reads synthetic CI evidence and recommends ready, hold, or escalate. It checks whether the answer is supported by the evidence—not just whether the JSON is valid.
-
-- **Separate checks:** decisions, blockers, citations, and policy reasons.
-- **Visible failures:** repeated trials, prompt regressions, and a reserved-case study; failed quality gates stay documented.
-- **Independent guard checks:** generated field faults and policy-preserving transformations, reported separately from model accuracy.
-
-The harness has **112 automated tests**, with Python 3.11 and 3.13 verified on Linux and Windows. The evaluated model failed the quality gates; this is evaluation work, not an autonomous release approver.
-
-[Five-minute walkthrough →](https://github.com/PrakashgoudaAI/release-evidence-eval/blob/main/docs/walkthrough.md) · [Model findings](https://github.com/PrakashgoudaAI/release-evidence-eval/blob/main/docs/experiments/005-reserved-baseline.md) · [Guard design & limitations](https://github.com/PrakashgoudaAI/release-evidence-eval/blob/main/docs/policy-guard.md)
-
-## Exploring next
-
-Building on local LLM evaluation, I’m exploring **AI-agent testing, RAG applications, and AI-assisted test analysis**. I’m also planning to develop **Docker, accessibility testing, and WebKit coverage**. These are learning directions; I’ll add project evidence as I put them into practice.
-
-## How I work
-
-Keep test intent clear. Use the simplest design that handles the problem. Investigate unstable tests before adding retries. Treat test code with the same care as application code.
-
-Good automation should make problems easier to find, understand, and fix.
+**Tools used here:** TypeScript, Python, Playwright, Postman CLI, PostgreSQL, Pact, GitHub Actions, Allure, JSON Schema and the MCP SDK. The repositories show the scope of that experience; they use synthetic data and local test targets.
 
 ## Connect
 
-<p>
-<a href="https://www.linkedin.com/in/prakashgouda/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" /></a>
-<a href="https://www.youtube.com/@PrakashgoudaAI"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-FF0033?style=for-the-badge" /></a>
-<a href="https://www.instagram.com/PrakashgoudaAI/"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge" /></a>
-<a href="https://x.com/PrakashgoudaAI"><img alt="X" src="https://img.shields.io/badge/X-18181B?style=for-the-badge" /></a>
-<a href="https://www.threads.net/@PrakashgoudaAI"><img alt="Threads" src="https://img.shields.io/badge/Threads-6366F1?style=for-the-badge" /></a>
-<a href="https://www.facebook.com/PrakashgoudaAI"><img alt="Facebook" src="https://img.shields.io/badge/Facebook-0866FF?style=for-the-badge" /></a>
-</p>
+[LinkedIn](https://www.linkedin.com/in/prakashgouda/) · [YouTube](https://www.youtube.com/@PrakashgoudaAI)
 
-**@PrakashgoudaAI** across social platforms · **@prakashgouda** on LinkedIn
-
----
-
-<sub>All examples here use synthetic applications and data. Employer, customer, and confidential material stay out of these repositories.</sub>
+Employer, customer and confidential material stay out of these repositories.
