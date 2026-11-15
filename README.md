@@ -28,6 +28,11 @@ Check state after a mutation. Test authorization through the API as well as the 
 
 ## Connect
 
-[LinkedIn](https://www.linkedin.com/in/prakashgouda/) · [YouTube](https://www.youtube.com/@PrakashgoudaAI)
+<p>
+  <a href="https://www.linkedin.com/in/prakashgouda/"><img src="assets/connect-linkedin.svg" alt="LinkedIn" width="160" height="42" /></a>
+  <a href="https://www.youtube.com/@PrakashgoudaAI"><img src="assets/connect-youtube.svg" alt="YouTube" width="160" height="42" /></a>
+  <a href="https://www.instagram.com/PrakashgoudaAI/"><img src="assets/connect-instagram.svg" alt="Instagram" width="160" height="42" /></a>
+  <a href="https://www.facebook.com/PrakashgoudaAI"><img src="assets/connect-facebook.svg" alt="Facebook" width="160" height="42" /></a>
+</p>
 
 Employer, customer and confidential material stay out of these repositories.
