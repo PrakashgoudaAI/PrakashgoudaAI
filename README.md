@@ -4,9 +4,11 @@
 
 ## Hi, I’m Prakash
 
-I work with Playwright, TypeScript, JavaScript and Python across browser automation, API testing and evaluation of systems that use language models. I focus on maintainable frameworks, isolated test data and reports that make failures easier to investigate.
+I work with Playwright, TypeScript, JavaScript and Python across browser automation, API testing and evaluation of systems that use large language models (LLMs). I focus on maintainable frameworks, isolated test data and reports that make failures easier to investigate.
 
-My delivery work includes Azure DevOps pipelines, Git/GitHub repositories and automated test reporting. The projects here show how I approach Page Object Model, reusable fixtures, permission boundaries, database consistency and evaluation design.
+I have built Azure DevOps pipelines to run tests and publish Allure results, Playwright HTML, Newman HTML Extra, pipeline summaries and interactive Allure reports. My delivery work also includes Git/GitHub repositories. The projects here show how I approach Page Object Model, reusable fixtures, permission boundaries, database consistency and evaluation design.
+
+Start with the [browser failure investigation](https://github.com/PrakashgoudaAI/playwright-starter/blob/main/docs/walkthrough.md) or [reservation correctness walkthrough](https://github.com/PrakashgoudaAI/api-contract-security-lab/blob/main/docs/walkthrough.md).
 
 [Skills](#skills--tools) · [Engineering practice](#engineering-practice) · [Projects](#projects) · [Connect](#connect)
 
@@ -47,6 +49,7 @@ My delivery work includes Azure DevOps pipelines, Git/GitHub repositories and au
   <a href="https://github.com/PrakashgoudaAI/api-contract-security-lab/tree/main/docs/decisions"><img src="assets/skill-system-design.svg" alt="System Design" width="184" height="42" /></a>
   <a href="https://github.com/PrakashgoudaAI/api-contract-security-lab"><img src="assets/skill-postgresql.svg" alt="PostgreSQL" width="184" height="42" /></a>
   <a href="https://github.com/PrakashgoudaAI/rag-agent-quality-lab/tree/main/docs"><img src="assets/skill-ai-testing.svg" alt="AI Testing" width="184" height="42" /></a>
+  <a href="https://github.com/PrakashgoudaAI/release-evidence-eval/blob/main/docs/walkthrough.md"><img src="assets/skill-llm.svg" alt="LLM Evaluation" width="184" height="42" /></a>
   <a href="https://github.com/PrakashgoudaAI/rag-agent-quality-lab"><img src="assets/skill-rag-mcp.svg" alt="RAG / MCP" width="184" height="42" /></a>
 </p>
 
@@ -57,10 +60,10 @@ Newman is included for collection compatibility; Postman CLI is the current runn
 | Area | What I work on | Examples |
 | :--- | :--- | :--- |
 | Playwright automation | Page Object Model (POM), typed fixtures, reusable controls, session isolation, cross-browser and selected accessibility checks | [Browser framework](https://github.com/PrakashgoudaAI/playwright-starter) |
-| API testing | Role and tenant boundaries, request/response contracts, persisted state, idempotency and consumer compatibility | [Reservation API](https://github.com/PrakashgoudaAI/api-contract-security-lab) · [Postman collection](https://github.com/PrakashgoudaAI/postman-api-tests) |
-| CI/CD and diagnostics | Azure DevOps pipeline implementation, Git/GitHub repository work, GitHub Actions checks, sharded runs and Allure/JUnit/HTML reporting | [Public CI and reports](https://github.com/PrakashgoudaAI/playwright-starter/blob/main/docs/SHARDED-CI.md) |
-| Test architecture and system design | Responsibility boundaries, state ownership, database transactions, migration integrity, replay and failure recovery | [Design decisions](https://github.com/PrakashgoudaAI/api-contract-security-lab/tree/main/docs/decisions) |
-| AI testing and evaluation | Retrieval relevance, evidence support, refusals, structured outputs, repeated trials and tool cancellation | [RAG/MCP lab](https://github.com/PrakashgoudaAI/rag-agent-quality-lab) · [Release evaluation](https://github.com/PrakashgoudaAI/release-evidence-eval) |
+| API testing | REST API checks, role and tenant boundaries, request/response contracts, SQL persistence, idempotency and consumer compatibility | [Reservation API](https://github.com/PrakashgoudaAI/api-contract-security-lab) · [Postman collection](https://github.com/PrakashgoudaAI/postman-api-tests) |
+| CI/CD and diagnostics | Azure DevOps pipeline implementation, Git/GitHub repository work, GitHub Actions checks, sharded runs and Allure/JUnit/HTML reporting | [Public CI and reports](https://github.com/PrakashgoudaAI/playwright-starter/blob/main/docs/SHARDED-CI.md) · [Azure reference pipeline](https://github.com/PrakashgoudaAI/playwright-starter/blob/main/docs/azure-pipelines.md) |
+| Test architecture and system design | Responsibility boundaries, state ownership, database transactions, migration integrity, replay and failure recovery | [Quality strategy](https://github.com/PrakashgoudaAI/api-contract-security-lab/blob/main/docs/quality-strategy.md) · [Design decisions](https://github.com/PrakashgoudaAI/api-contract-security-lab/tree/main/docs/decisions) |
+| AI testing and evaluation | LLM evaluation, retrieval relevance, evidence support, refusals, structured outputs, repeated trials and tool cancellation | [RAG/MCP lab](https://github.com/PrakashgoudaAI/rag-agent-quality-lab) · [Release evaluation](https://github.com/PrakashgoudaAI/release-evidence-eval) |
 
 ## Projects
 
